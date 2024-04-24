@@ -1,0 +1,8 @@
+.example {
+    width: 100%;
+    height: 60px;
+    max-width: 320px;
+    background-color: var(--color-bg-quaternary);
+    border-radius: var(--border-radius-5-s);
+    padding: var(--space-8-s);
+}

@@ -1,0 +1,81 @@
+.button {
+    border: none;
+    outline: none;
+    padding: 0;
+    font: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+    transition: transform 0.05s ease-in-out;
+    width: fit-content;
+    font-size: var(--size-s);
+    line-height: normal;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
+
+.size__s {
+    height: 28px;
+    min-width: 28px;
+    padding: var(--space-3-s);
+    gap: var(--space-2-s);
+    border-radius: var(--border-radius-3-s);
+}
+
+.size__m {
+    height: 32px;
+    min-width: 32px;
+    padding: var(--space-4-s);
+    gap: var(--space-3-s);
+    border-radius: var(--border-radius-3-s);
+}
+
+.size__l {
+    height: 40px;
+    min-width: 40px;
+    padding: var(--space-6-s);
+    gap: var(--space-6-s);
+    border-radius: var(--border-radius-4-s);
+}
+
+.view__action {
+    background-color: var(--color-bg-tertiary);
+}
+
+.view__clear {
+    background-color: inherit;
+}
+
+.width__auto {
+    width: fit-content;
+}
+
+.width__max {
+    width: 100%;
+}
+
+.align__left {
+    justify-content: left;
+    text-align: left;
+}
+
+.align__center {
+    justify-content: center;
+    text-align: center;
+}
+
+.align__right {
+    justify-content: right;
+    text-align: right;
+}
+
+.icon, .text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-8-s);
+}
+
+.libraries {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-10-s);
+
+    padding: var(--space-8-s) var(--space-6-s);
+}

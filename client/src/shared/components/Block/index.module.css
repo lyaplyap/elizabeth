@@ -1,0 +1,6 @@
+.block {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--color-bg-secondary);
+    border-radius: var(--border-radius-5-s);
+}

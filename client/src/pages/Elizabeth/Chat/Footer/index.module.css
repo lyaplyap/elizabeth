@@ -1,0 +1,17 @@
+.footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    justify-content: center;
+    padding: var(--space-16-s) var(--space-8-s) var(--space-32-s) var(--space-8-s);
+}
+
+.input {
+    background-color: var(--color-bg-quaternary);
+    max-width: 652px;
+}
+
+.button {
+    margin-right: calc(-1 * var(--space-6-s));
+}

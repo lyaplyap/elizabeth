@@ -1,0 +1,17 @@
+.logo {
+    cursor: pointer;
+}
+
+.logo > a {
+    all: unset;
+
+    display: flex;
+    gap: var(--space-6-s);
+    align-items: center;
+}
+
+.title {
+    font-family: var(--font-family-secondary);
+    font-weight: var(--weight-bold);
+    font-size: var(--size-l);
+}

@@ -1,0 +1,12 @@
+.app {
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    padding: var(--space-10-s);
+
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: var(--space-10-s);
+
+    color: var(--color-text-primary);
+}

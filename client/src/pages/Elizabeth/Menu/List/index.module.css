@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2-s);
+}
+
+.title {
+    font-family: var(--font-family);
+    font-size: var(--size-s);
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2-s);
+}
